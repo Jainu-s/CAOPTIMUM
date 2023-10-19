@@ -1,0 +1,38 @@
+﻿Test Case,URL,Note,Follow Steps,Execution notes
+1,https://accounts.google.com/signup,,"1. launch google browser
+2.launch given url
+3. Enter first name ""Jainmiah""
+4. enter last name  as ""Shaik""
+5. click ""Next"" button
+6. select month as ""November""
+7. and now select day or date as ""29""
+8. finally select year as ""1995""
+9. Also select gender as ""Male""
+10. click ""Next"" button
+11. click on ""Create your own Gmail address""
+12. Enter ""skjainmiah1111"" and  create a gmail address
+13. Click the ""Next"" button
+14. Now enter password ""Oldisgold@123""
+15.  ""Oldisgold@123"" once again confirm it and enter
+16. Now click ""Next""
+17. enter the phone number ""8333833805""
+18. click ""Next"" Button and wait for OTP
+
+
+
+",
+1,https://www.saucedemo.com/,,"1. Open Browser
+2. Open url
+3. Enter Username ""standard_user""
+4. Enter Password ""secret_sauce""
+5. Click ""Login"" button
+",
+2,,https://www.onlinesbi.com,"1.First open google browser
+2.Now search the url in google browser
+3.select official link from the results
+",
+3,,,"1) open browser
+2) open url  https://www.icicibank.com
+3) click on ""CAMPUS POWER"" button
+4) Now type ""insurance"" in the search box
+5) click on ""Insurance""",

@@ -1,0 +1,209 @@
+Steps
+Open the Browser
+"Enter the given ""Url"" in the searchbox  ""https://www.flipkart.com"" and click on Enter button."
+Please make sure once and click on the first link which will be Flipkart's official link.
+"Open the application by using given URL ""https://www.flipkart.com""."
+Check the UI of Home Page
+"Open the application by using given URL ""https://www.flipkart.com""."
+Hover over the Login Button
+Check if the options are displayed in a pop-over
+"Open the application by using given URL ""https://www.flipkart.com""."
+Hover over the Login Button
+Click on Sign-Up hyperlink in the Login button PopOver
+"Open the application by using given URL ""https://www.flipkart.com""."
+Hover over the Login Button
+Click on Sign-Up hyperlink in the Login button PopOver
+Check the layouts and fields on the registration page.
+"Open the application by using given URL ""https://www.flipkart.com""."
+Hover over the Login Button
+Click on Sign-Up hyperlink in the Login button PopOver
+"Check the Placeholder ""Enter Mobile Number"" presented on the left top corner of Mobile number text field."
+"Open the application by using given URL ""https://www.flipkart.com""."
+Hover over the Login Button in home page.
+Click on Sign-Up hyperlink in the Login button - PopOver.
+Click on the Mobile Number text field.
+Enter a mobile number greater than
+digit in the Mobile Number text field on the registration page.
+"Open the application by using given URL ""https://www.flipkart.com""."
+Hover over the Login Button in home page.
+Click on Sign-Up hyperlink in the Login button - PopOver.
+Enter some alphabets & special characters in the Mobile Number field.
+"Open the application by using given URL ""https://www.flipkart.com""."
+Hover over the Login Button in home page.
+Click on Sign-Up hyperlink in the Login button - PopOver.
+Enter a Mobile Number less than
+digits.
+Click on continue button.
+"Open the application by using given URL ""https://www.flipkart.com""."
+Hover over the Login Button in home page.
+Click on Sign-Up hyperlink in the Login button - PopOver.
+Do not Enter any data in the Mobile Number field.
+Click on continue button.
+"Open the application by using given URL ""https://www.flipkart.com""."
+Hover over the Login Button in home page
+Click on Sign-Up hyperlink in the Login button - PopOver
+Click on Mobile Number text field
+Enter a number in the Mobile Number text field on the registration page.
+"Open the application by using given URL ""https://www.flipkart.com""."
+Hover over the Login Button in home page
+Click on Sign-Up hyperlink in the Login button - PopOver
+Click on Mobile Number text field
+Enter a mobile number and try to change the Country code
+"Open the application by using given URL ""https://www.flipkart.com""."
+Hover over the Login Button
+Click on Sign-Up hyperlink in the Login button - PopOver
+Enter a 10-digit valid mobile number in the Mobile Number text field on the registration page.
+"Open the application by using given URL ""https://www.flipkart.com""."
+Hover over the Login Button
+Click on Sign-Up hyperlink in the Login button - PopOver
+Enter a 10-digit invalid mobile number in the Mobile Number text field on the registration page.
+"Open the application by using given URL ""https://www.flipkart.com""."
+Hover over the Login Button
+Click on Sign-Up hyperlink in the Login button - PopOver
+Enter a
+digit mobile number in the Mobile Number text field and click on the Send code button on the registration page.
+Enter the Valid OTP Number in the OTP field.
+"Open the application by using given URL ""https://www.flipkart.com""."
+Hover over the Login Button
+Click on Sign-Up hyperlink in the Login button - PopOver
+Enter a
+digit mobile number in the Mobile Number text field and click on the Send code button on the registration page.
+Enter the Invalid OTP Number in the OTP field and click on continue button.
+"Open the application by using given URL ""https://www.flipkart.com""."
+Hover over the Login Button
+Click on Sign-Up hyperlink in the Login button - PopOver
+Enter a
+digit mobile number in the Mobile Number text field and click on the Send code button on the registration page.
+Enter the Alphabets and Special characters in the OTP field.
+"Open the application by using given URL ""https://www.flipkart.com""."
+Hover over the Login Button
+Click on Sign-Up hyperlink in the Login button - PopOver
+Enter a
+digit mobile number in the Mobile Number text field and click on the Send code button on the registration page.
+DO not Enter any Data in the OTP field and click on continue button.
+"Open the application by using given URL ""https://www.flipkart.com""."
+Hover over the Login Button
+Click on Sign-Up hyperlink in the Login button - PopOver
+Enter a
+digit mobile number in the Mobile Number text field and click on the Send code button on the registration page.
+If the system didn't send the OTP number Click on the Resend code hyperlink on the OTP screen.
+"Open the application by using given URL ""https://www.flipkart.com""."
+Click on the Login Button on the Home page
+"Open the application by using the given URL ""https://www.flipkart.com""."
+"Click on the Login Button, Login page will display"
+Enter the Valid mobile number in the Mobile Number Text field and Click on Request OTP Button on the login page.
+"Enter the OTP number received on the entered mobile number then click on Continue Button."""
+"Open the application by using given URL ""https://www.flipkart.com""."
+Click on the Login button
+Check the layouts and fields on the Login page.
+"Open the application by using given URL ""https://www.flipkart.com""."
+"Click on the Login Button, Login Page will display."
+"Check the Placeholder ""Enter Mobile Number"" presented on the left top corner of Mobile number text field."
+"Open the application by using given URL ""https://www.flipkart.com""."
+"Click on the Login button, Login Page will display."
+Click on the Mobile Number text field.
+Enter a mobile number greater than
+digit in the Mobile Number text field on the Login page.
+"Open the application by using given URL ""https://www.flipkart.com""."
+"Click on the Login Button, Login Page will display."
+Enter some alphabets & special characters in the Mobile Number field.
+"Open the application by using given URL ""https://www.flipkart.com""."
+"Click on the Login Button, Login Page will display."
+Enter a Mobile Number less than
+digits in the Login Page Mobile Number field.
+Click on Request OTP button.
+"Open the application by using given URL ""https://www.flipkart.com""."
+"Click on the Login button, Login Page will display."
+Do not Enter any data in the Login Page Mobile Number field.
+Click on Request OTP button.
+"Open the application by using given URL ""https://www.flipkart.com""."
+Hover over the Login Button in home page
+"Click on the Login button, Login Page will display"
+Click on Mobile Number text field
+Enter a number in the Mobile Number text field on the Login page.
+"Open the application by using given URL ""https://www.flipkart.com""."
+"Click on the Login button, Login Page will display."
+Click on Mobile Number text field
+Enter a number and try to change the Country code
+"Open the application by using given URL ""https://www.flipkart.com""."
+"Click on the Login button, Login Page will display."
+Enter a 10-digit valid mobile number in the Mobile Number text field on the Login page.
+"Open the application by using given URL ""https://www.flipkart.com""."
+"Click on the Login button, Login Page will display."
+Enter a 10-digit invalid mobile number in the Mobile Number text field and click on Request OTP button on the Login page.
+"Open the application by using given URL ""https://www.flipkart.com""."
+"Click on the Login button, Login will display."
+Enter a
+digit mobile number in the Mobile Number text field and click on the Request OTP button on the Login page.
+Enter the Valid OTP Number in the OTP field.
+"Open the application by using given URL ""https://www.flipkart.com""."
+"Click on the Login button, Login will display."
+Enter a
+digit mobile number in the Mobile Number text field and click on the Request OTP button on the registration page.
+Enter the Invalid OTP Number in the OTP field and click on continue button.
+"Open the application by using given URL ""https://www.flipkart.com""."
+"Click on the Login button, Login Page wil display."
+Enter a
+digit mobile number in the Mobile Number text field and click on the Request OTP button on the registration page.
+Enter the Alphabets and Special characters in the OTP field.
+"Open the application by using given URL ""https://www.flipkart.com""."
+"Click on the Login button, Login Page will display."
+Enter a
+digit mobile number in the Mobile Number text field and click on the Request OTP button on the registration page.
+DO not Enter any Data in the OTP field and click on continue button.
+"Open the application by using given URL ""https://www.flipkart.com""."
+"Click on the Login button, Login Page will display."
+Enter a
+digit mobile number in the Mobile Number text field and click on the Request OTP button on the registration page.
+If the system didn't send the OTP number Click on the Resend code hyperlink on the OTP screen.
+"Open the application by using the given URL ""https://www.flipkart.com""."
+Check the Text field label and Search Icon in the Search box.
+"Open the application by using the given URL ""https://www.flipkart.com""."
+Click on Search Box in the Home Page
+"Enter any value like Alphabets, Special characters and Numbers in the Search box"
+"Open the application by using the given URL ""https://www.flipkart.com""."
+Click on Search Box in the Home Page
+"Enter any value like Alphabets, Special characters and Numbers in the Search box"
+"Open the application by using the given URL ""https://www.flipkart.com""."
+Click on Search Box in the Home Page
+"Enter any value like Alphabets, Special characters and Numbers in the Search box and click on Enter (or) search icon in the search box."
+"Open the application by using the given URL ""https://www.flipkart.com""."
+Click on Search Box in the Home Page
+"Enter any value like Alphabets, Special characters and Numbers in the Search box and click on Enter (or) search icon in the search box."
+"Open the application by using the given URL ""https://www.flipkart.com""."
+Click on Search Box in the Home Page
+"Enter any value like Alphabets, Special characters and Numbers in the Search box and click on Enter (or) search icon in the search box."
+"Open the application by using the given URL ""https://www.flipkart.com""."
+Click on Search Box in the Home Page
+"Open the application by using the given URL ""https://www.flipkart.com""."
+Check the flipkart image and Explore plus hyperlink are present in the Home Page as required
+"Open the application by using the given URL ""https://www.flipkart.com""."
+"Click on search box and enter any keyword for example ""mobiles"", system will navigate to the mobiles page."
+Click on Flipkart Image present before the search box
+"Open the application by using the given URL ""https://www.flipkart.com""."
+Click on Explore Plus hyperlink present below the Flipkart Image
+"Open the application by using the given URL ""https://www.flipkart.com""."
+"Hover Over the My Profile Text in the Home Page, PopOver will display"
+Click on My Profile hyperlink in the PopOver
+"Open the application by using the given URL ""https://www.flipkart.com""."
+"Hover Over the My Profile Text in the Home Page, PopOver will display"
+"Click on My Profile hyperlink in the PopOver, Profile page will display."
+Check the Profile page UI
+"Open the application by using the given URL ""https://www.flipkart.com""."
+"Hover Over the My Profile Text in the Home Page, PopOver will display"
+"Click on My Profile hyperlink in the PopOver, Profile page will display."
+"Click on Profile Information option in Profile page, Profile Information section will display"
+"Click on ""Personal Information"" Edit button"
+"Open the Flipkart application by using the given URL ""https://www.flipkart.com""."
+"Hover Over the My Profile Text in the Home Page, PopOver will display."
+"Click on My Profile hyperlink in the PopOver, Profile page will display."
+"Click on Profile Information option in Profile page, Profile Information section will display"
+"Click on ""Personal Information"" Edit button"
+"Enter Alphabets, Special characters, and Numbers in the First Name and Last Name Text Boxes"
+"Open the Flipkart application by using the given URL ""https://www.flipkart.com""."
+"Hover Over the My Profile Text in the Home Page, PopOver will display."
+"Click on My Profile hyperlink in the PopOver, Profile page will display."
+"Click on Profile Information option in Profile page, Profile Information section will display"
+"Click on ""Personal Information"" Edit button"
+"Select the Gender in the ""Male"" & ""Female"" Radio Buttons"
+Click on the Save Button

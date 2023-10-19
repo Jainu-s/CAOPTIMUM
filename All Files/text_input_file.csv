@@ -1,0 +1,20 @@
+Steps,Data
+First launch the url,https://www.sbi.co.in
+"click on ""Net Banking"" button",N/A
+"Now click on ""LOGIN"" button add_text PERSONAL",N/A
+"Now click on ""CONTINUE TO LOGIN"" button",N/A
+You will see a username field there now enter username,"""skjainmiah"""
+enter password,"""Jainudanish23@"""
+"click ""Login"" button",N/A
+Now enter one time password or OTP received to your mobile,"""Jainudanish23@"""
+"click ""submit"" button",N/A
+"Now click on ""Payments / Transfers"" button",N/A
+"click on ""Quick Transfer (Without Adding Beneficiary)"" option",N/A
+Enter Beneficiary Name,N/A
+enter Beneficiary Account Number,N/A
+Re-enter Beneficiary Account Number,N/A
+"select ""Within SBI"" option",N/A
+now enter the amount,1000
+"also choose rent ""Rent"" option in purpose",N/A
+Finally accept the terms,N/A
+conditions by clicking on checkbox,N/A

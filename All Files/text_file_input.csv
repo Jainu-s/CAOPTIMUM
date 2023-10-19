@@ -1,0 +1,9 @@
+Steps,Credentials
+First launch the url,https://www.sbi.co.in
+"click on ""Net Banking"" button",N/A
+"Now click on ""LOGIN"" button add_text PERSONAL BANKING",N/A
+"Now click on ""CONTINUE TO LOGIN"" button",N/A
+You will see a username field there now enter username,firozshaik
+enter password,Iaminchennai@123
+also enter captcha,N/A
+auth_key,N/A

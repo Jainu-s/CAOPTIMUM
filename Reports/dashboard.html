@@ -1,0 +1,118 @@
+
+       <html>
+       <head>
+           <title>Test Cases Dashboard</title>
+           <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+           <style>
+               body {
+                   font-family: Arial, sans-serif;
+                   background-color: #ffffff;
+                   color: #000000;
+                   margin: 50px;
+               }
+               .chart-container {
+                   width: 60%;
+                   height: 400px;
+                   margin: 20px auto;
+               }
+               table {
+                   width: 80%;
+                   margin: 30px auto;
+                   border-collapse: collapse;
+                   background-color: #f2f2f2;
+               }
+               th, td {
+                   padding: 15px;
+                   text-align: left;
+                   border-bottom: 1px solid #aaaaaa;
+               }
+               th {
+                   background-color: #007BFF;
+                   color: white;
+                   border-bottom: 2px solid #888888;
+               }
+               tr:nth-child(even) {
+                   background-color: #e6e6e6;
+               }
+           </style>
+       </head>
+       <body>
+           <h2>Test Cases Dashboard</h2>
+
+           <div class="chart-container">
+               <canvas id="testCaseChart"></canvas>
+           </div>
+
+           <table>
+               <thead>
+                   <tr>
+                       <th>Test Case No</th>
+                       <th>Status</th>
+                       <th>Image Path</th>
+                   </tr>
+               </thead>
+               <tbody>
+       <tr><td>VCS01</td><td>✔️</td><td><a href="file://C:\Users\abdul\PycharmProjects\Automation_Optimum\Screenshot\Test Case Passed\VCS01\successful.png">C:\Users\abdul\PycharmProjects\Automation_Optimum\Screenshot\Test Case Passed\VCS01\successful.png</a></td></tr><tr><td>VCS03</td><td>✔️</td><td><a href="file://C:\Users\abdul\PycharmProjects\Automation_Optimum\Screenshot\Test Case Passed\VCS03\successful.png">C:\Users\abdul\PycharmProjects\Automation_Optimum\Screenshot\Test Case Passed\VCS03\successful.png</a></td></tr><tr><td>VCS05</td><td>✔️</td><td><a href="file://C:\Users\abdul\PycharmProjects\Automation_Optimum\Screenshot\Test Case Passed\VCS05\successful.png">C:\Users\abdul\PycharmProjects\Automation_Optimum\Screenshot\Test Case Passed\VCS05\successful.png</a></td></tr><tr><td>VCS06</td><td>✔️</td><td><a href="file://C:\Users\abdul\PycharmProjects\Automation_Optimum\Screenshot\Test Case Passed\VCS06\successful.png">C:\Users\abdul\PycharmProjects\Automation_Optimum\Screenshot\Test Case Passed\VCS06\successful.png</a></td></tr><tr><td>VCS02</td><td>✔️</td><td><a href="file://C:\Users\abdul\PycharmProjects\Automation_Optimum\Screenshot\Test Case Failed\VCS02\10VCS02click.png">C:\Users\abdul\PycharmProjects\Automation_Optimum\Screenshot\Test Case Failed\VCS02\10VCS02click.png</a></td></tr><tr><td>VCS04</td><td>✔️</td><td><a href="file://C:\Users\abdul\PycharmProjects\Automation_Optimum\Screenshot\Test Case Failed\VCS04\29VCS04click.png">C:\Users\abdul\PycharmProjects\Automation_Optimum\Screenshot\Test Case Failed\VCS04\29VCS04click.png</a></td></tr>
+            </tbody>
+        </table>
+
+        <script>
+            var ctx = document.getElementById('testCaseChart').getContext('2d');
+
+            var gradientGray = ctx.createLinearGradient(0, 0, 0, 400);
+            gradientGray.addColorStop(0, '#cccccc');
+            gradientGray.addColorStop(1, '#888888');
+
+            var gradientGreen = ctx.createLinearGradient(0, 0, 0, 400);
+            gradientGreen.addColorStop(0, '#aaffaa');
+            gradientGreen.addColorStop(1, '#00cc00');
+
+            var gradientRed = ctx.createLinearGradient(0, 0, 0, 400);
+            gradientRed.addColorStop(0, '#ffaaaa');
+            gradientRed.addColorStop(1, '#cc0000');
+
+            new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Total Test Cases', 'Test Cases Passed', 'Test Cases Failed'],
+                    datasets: [{
+                        data: [6, 6, 0],
+                        backgroundColor: [gradientGray, gradientGreen, gradientRed],
+                        barPercentage: 0.5,
+                        categoryPercentage: 0.7,
+                        borderRadius: 10
+                    }]
+                },
+                options: {
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            ticks: {
+                                precision: 0,
+                                color: '#000000'
+                            },
+                            grid: {
+                                display: false
+                            }
+                        },
+                        x: {
+                            ticks: {
+                                color: '#000000'
+                            },
+                            grid: {
+                                display: false
+                            }
+                        }
+                    }
+                }
+            });
+
+        </script>
+    </body>
+    </html>
+    

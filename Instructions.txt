@@ -1,0 +1,8 @@
+Folders:
+1.Script Files: All Python Script Files are available in this folder - start from main
+2.Model Files: Machine Learning Model Building and Prediction files are available here
+3.Testcases: This folder contains testcases
+4.Credentials: This folder contains credentials for testcases
+5.Chrome Webdriver: This folder contains google chromedriver for browser
+6.Screenshot: This folder contains all the failed test cases screenshots
+7.All Files: This folder contains rest of the XLSX files.

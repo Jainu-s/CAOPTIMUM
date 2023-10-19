@@ -1,0 +1,20 @@
+Text,Document,Url,Prediction,Steps,Data
+First launch url,1,https://www.sbi.co.in,url,First launch the url,https://www.sbi.co.in
+"""Net Banking""",2,,click,"click on ""Net Banking"" button",
+"""LOGIN"" add_text PERSONAL",3,,click,"Now click on ""LOGIN"" button add_text PERSONAL",
+"""CONTINUE TO LOGIN""",4,,click,"Now click on ""CONTINUE TO LOGIN"" button",
+see username field username,5,,insert,You will see a username field there now enter username,"""skjainmiah"""
+password,6,,insert,enter password,"""Jainudanish23@"""
+"""Login""",7,,click,"click ""Login"" button",
+one time password OTP received mobile,8,,insert,Now enter one time password or OTP received to your mobile,"""Jainudanish23@"""
+"""submit""",9,,click,"click ""submit"" button",
+"""Payments / Transfers""",10,,click,"Now click on ""Payments / Transfers"" button",
+"""Quick Transfer (Without Adding Beneficiary)""",11,,click,"click on ""Quick Transfer (Without Adding Beneficiary)"" option",
+Beneficiary Name,12,,insert,Enter Beneficiary Name,
+Beneficiary Account Number,13,,insert,enter Beneficiary Account Number,
+Re-enter Beneficiary Account Number,14,,insert,Re-enter Beneficiary Account Number,
+"""Within SBI""",15,,insert,"select ""Within SBI"" option",
+amount,16,,insert,now enter the amount,1000
+"also choose rent ""Rent"" purpose",17,,insert,"also choose rent ""Rent"" option in purpose",
+Finally accept terms,18,,url,Finally accept the terms,
+conditions clicking checkbox,19,,hover,conditions by clicking on checkbox,

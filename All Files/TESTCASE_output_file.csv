@@ -1,0 +1,136 @@
+,split_text,keywords
+0,open play store application,open
+1,search yono  app,
+2,click install button,"click,  button"
+0,download the yono application from playstore,
+1,open the yono application,open
+2,click register button,"click,  button"
+0,download the yono application,
+1,open the yono application,open
+2,click register button,"click,  button"
+3,click on accept button in termscondition page,"click,  accept button"
+0,download the yono application,
+1,open the yono application,open
+2,click register button,"click,  button"
+3,click on decline button in termscondition page,"click,  button"
+0,download the yono application,
+1,open the yono application,open
+2,click register button,"click,  button"
+3,click on accept button in termscondition page,"click,  accept button"
+4,click on proceed button,"click,  button"
+0,download the yono application,
+1,open the yono application,open
+2,click register button,"click,  button"
+3,click on accept button in termscondition page,"click,  accept button"
+4,click on proceed button,"click,  button"
+5,enter otp then enter valid atm card number,"enter,  enter"
+6,click proceed button,"click,  button"
+0,download the yono application,
+1,open the yono application,open
+2,click register button,"click,  button"
+3,click on accept button in termscondition page,"click,  accept button"
+4,click on proceed button,"click,  button"
+5,enter otp then enter invalid atm card number,"enter,  enter"
+6,click proceed button,"click,  button"
+0,download the yono application,
+1,open the yono application,open
+2,click register button,"click,  button"
+3,click on accept button in termscondition page,"click,  accept button"
+4,click on proceed button,"click,  button"
+5,enter otp then enter valid account number,"enter,  enter"
+6,click proceed button,"click,  button"
+0,download the yono application,
+1,open the yono application,open
+2,click register button,"click,  button"
+3,click on accept button in termscondition page,"click,  accept button"
+4,click on proceed button,"click,  button"
+5,enter otp then enter invalid account number,"enter,  enter"
+6,click proceed button,"click,  button"
+0,open the yono application in mobile,open
+0,open the yono application,open
+1, enter  valid mpin mpin should be,enter
+2, digit number,
+3,click loginbutton,click
+0,open the yono application,open
+1, enter  invalid mpin,enter
+2,click loginbutton ,click
+0,open the yono application,open
+1, enter  valid username and password,enter
+2,click on loginbutton ,click
+0,open the yono application,open
+1, enter invalid username and password,enter
+2,click on loginbutton ,click
+0,open the yono application,open
+1, enter  valid username and invalid password,enter
+2,click loginbutton ,click
+0,open the yono application,open
+1,username and password field is empty,
+2,click on loginbutton ,click
+0,open the yono application,open
+1, enter  valid username and password,enter
+2,click on loginbutton ,click
+3,click on view balance,click
+0,open the yono application,open
+1, enter  valid username and password,enter
+2,click on loginbutton ,click
+3,click on view balance,click
+4,click on  hidebutton,click
+0,open the yono application,open
+1, enter  valid username and password,enter
+2,click on loginbutton ,click
+3, click on  account,click
+0,open the yono application,open
+1, enter  valid username and password,enter
+2,click on loginbutton ,click
+3, click on  account,click
+4,click on yono pay ,click
+5,enter valid  account details,enter
+6,click pay button,"click,  button"
+0,open the yono application,open
+1, enter  valid username and password,enter
+2,click on loginbutton ,click
+3, click on  account,click
+4,click on yono pay ,click
+5,enter invalid account details,enter
+6,click pay button,"click,  button"
+0,open the yono application,open
+1, enter  valid username and password,enter
+2,click on loginbutton ,click
+3, click on  account,click
+4,click on  yono cash,click
+5,enter the amountif amount is more than rs,enter
+6,,
+7,,
+8,,
+9,scan qr code,
+10,click on accept,click
+0,open the yono application,open
+1, enter  valid username and password,enter
+2,click on loginbutton ,click
+3, click on  account,click
+4,click on  yono cash,click
+5,enter the amountif amount is  below rs,enter
+6,,
+7,,
+8,,
+9,scan qr code,
+10,click on accept,click
+0,open the yono application,open
+1, enter  valid user name and password,enter
+2,click on loginbutton ,click
+3, click on  deposite,click
+4,enter valid account details and declare the amount,enter
+5,click deposite or investment button,"click,  button"
+0,open the yono application,open
+1, enter  valid username and password,enter
+2,click on loginbutton ,click
+3, click on  deposite,click
+4,enter invalid account details and declare the amount,enter
+5,click deposite or investment button,"click,  button"
+0,open the yono application,open
+1, enter  valid username and password,enter
+2,click on loginbutton ,click
+3,click on  home loan ,click
+4,click home loan apply button,"click,  button"
+5,enter details and submit require documents,enter
+6,click onapply,click

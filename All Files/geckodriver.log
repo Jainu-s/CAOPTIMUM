@@ -1,0 +1,39 @@
+1688681524234	geckodriver	INFO	Listening on 127.0.0.1:1912
+1688681527715	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1913" "-no-remote" "-profile" "C:\\Users\\abdul\\AppData\\Local\\Temp\\rust_mozprofileeYzQ6d"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1688681528482	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1688681528491	Marionette	INFO	Listening on port 1926
+WebDriver BiDi listening on ws://127.0.0.1:1913
+1688681528975	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:1913/devtools/browser/6337bdb3-f334-4d18-a1f4-e34a4f7d0de1
+1688681538668	Marionette	INFO	Stopped listening on port 1926
+Dynamically enable window occlusion 1
+console.error: (new AbortError("IndexedDB: main/url-classifier-skip-urls list() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+1688681568947	geckodriver	INFO	Listening on 127.0.0.1:2114
+1688681572057	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2115" "-no-remote" "-profile" "C:\\Users\\abdul\\AppData\\Local\\Temp\\rust_mozprofileRXPQQU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1688681572803	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1688681572815	Marionette	INFO	Listening on port 2121
+WebDriver BiDi listening on ws://127.0.0.1:2115
+1688681573160	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:2115/devtools/browser/92677caa-4771-4539-919a-4ac17dc5d573
+1688681579396	Marionette	INFO	Stopped listening on port 2121
+Dynamically enable window occlusion 1
+console.error: (new AbortError("IndexedDB: main/url-classifier-skip-urls list() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+1688681635152	geckodriver	INFO	Listening on 127.0.0.1:2212
+1688681638246	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2213" "-no-remote" "-profile" "C:\\Users\\abdul\\AppData\\Local\\Temp\\rust_mozprofileHNIzgW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1688681638717	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1688681638725	Marionette	INFO	Listening on port 2223
+WebDriver BiDi listening on ws://127.0.0.1:2213
+1688681638906	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:2213/devtools/browser/1335d2bb-2a86-4bf2-8430-96a30e4e7c8d
+1688681642791	Marionette	INFO	Stopped listening on port 2223
+Dynamically enable window occlusion 1
+console.error: (new AbortError("IndexedDB: main/url-classifier-skip-urls list() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))

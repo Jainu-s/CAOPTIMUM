@@ -1,0 +1,13 @@
+Label,STEPS,URL
+PGR1,,
+PGR1," open url https://programiz.pro/signup
+",
+PGR1," click on ""Sign Up with Email""
+",
+PGR1," enter full name
+",
+PGR1," enter email
+",
+PGR1," enter password
+",
+PGR1," click ""Sign Up"" button",

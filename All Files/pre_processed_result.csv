@@ -1,0 +1,7 @@
+Text,Document,Label,URL,Prediction,credentials
+url,1,PGR1,https://programiz.pro/signup,url,
+"""Sign Up with Email""",2,PGR1,,click,Ramesh2585@gmail.com
+full name,3,PGR1,,insert,Rames2587
+email,4,PGR1,,insert,Ramesh2585@gmail.com
+password,5,PGR1,,insert,Ra785@456
+"""Sign Up""",6,PGR1,,click,

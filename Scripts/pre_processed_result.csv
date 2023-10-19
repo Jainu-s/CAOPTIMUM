@@ -1,0 +1,44 @@
+Text,Document,Label,URL,Prediction,credentials
+launch google,1,VCS01,,browser,
+given url,2,VCS01,,url,https://www.victoriassecret.com/in/
+"""user"" icon",3,VCS01,,click,
+email,4,VCS01,,insert,srihari@gmail.com
+password,5,VCS01,,insert,Jainudanish1@
+"""secure sign in"" button",6,VCS01,,click,
+"""user"" icon",7,VCS01,,hover,
+"""BEAUTY"" category",8,VCS02,,click,
+given item,9,VCS02,,click,New! Heavenly Fine Fragrance Lotion
+"""Add to Bag"" button",10,VCS02,,click,
+"""CONTINUE SHOPPING"" button",11,VCS02,,click,
+"""ACCESSORIES""",12,VCS03,,click,
+given item,13,VCS03,,click,Medium Crossbody Bag
+"""Add to Bag"" button",14,VCS03,,click,
+"""CHECK OUT"" button",15,VCS03,,click,
+"""Checkout"" button",16,VCS03,,click,
+"""ACCEPT & CONTINUE"" button",17,VCS03,,click,
+"""CONTINUE TO CHECKOUT"" button",18,VCS03,,click,
+firstname,19,VCS04,,insert,Jainmiah
+lastname,20,VCS04,,insert,shaik
+Address line1,21,VCS04,,insert,587/41 BTM Layout 2
+postal code,22,VCS04,,insert,560076
+city locality,23,VCS04,,insert,Bangaluru
+Province,24,VCS04,,click,Karnataka
+"""KARNATAKA""",25,VCS04,,click,
+pan,26,VCS04,,insert,ABCDE1234F
+phone number,27,VCS04,,insert,9632587410
+email,28,VCS04,,insert,shobana@triots.com
+checkbox,29,VCS04,,click,
+"""CONTINUE TO PAYMENT"" button",30,VCS04,,click,
+card number,31,VCS05,,insert,4005550000000019
+Expiry date,32,VCS05,,insert,0426
+name card,33,VCS05,,insert,Tabassum Danish
+"""Place order"" button",34,VCS05,,insert,
+"""PLACE ORDER"" button",35,VCS05,,click,
+"""return to cart"" button",36,VCS06,,click,
+"""View Offers"" button",37,VCS06,,click,
+"""live chat""",38,VCS06,,click,
+"chat window appear ""START CHATTING"" button",39,VCS06,,click,
+"""Offers and promotions"" button",40,VCS06,,click,
+"""Locate an offer code"" button",41,VCS06,,click,
+"""View Current Online Offers""",42,VCS06,,click,
+"""YES"" button",43,VCS06,,click,
