@@ -121,7 +121,7 @@ def text_input(file):
 
     return df
 
-df = text_input(r"C:\Users\abdul\PycharmProjects\Automation_Optimum\All Files\testing.txt")
+df = text_input(r"C:\Users\Optimum.LAPTOP-SQLU1RCT\PycharmProjects\FAP\CAOPTIMUM\All Files\testing.txt")
 
 print(df)
 

@@ -4,10 +4,10 @@ import pandas as pd
 
 def visualization():
     # Directory paths
-    base_dir = r"C:\Users\abdul\PycharmProjects\Automation_Optimum\Screenshot"
+    base_dir = r"C:\Users\Optimum.LAPTOP-SQLU1RCT\PycharmProjects\FAP\CAOPTIMUM\Screenshot"
     passed_dir = os.path.join(base_dir, "Test Case Passed")
     failed_dir = os.path.join(base_dir, "Test Case Failed")
-    testcases_dir = r"C:\Users\abdul\PycharmProjects\Automation_Optimum\Testcases"
+    testcases_dir = r"C:\Users\Optimum.LAPTOP-SQLU1RCT\PycharmProjects\FAP\CAOPTIMUM\Testcases"
 
     # Function to check if folder has an image
     def has_image(folder_path):
@@ -196,7 +196,7 @@ def visualization():
     </html>
     """
 
-    with open(r"C:\Users\abdul\PycharmProjects\Automation_Optimum\Reports\dashboard.html", "w",
+    with open(r"C:\Users\Optimum.LAPTOP-SQLU1RCT\PycharmProjects\FAP\CAOPTIMUM\Reports\dashboard.html", "w",
               encoding="utf-8") as f:
         f.write(html)
 

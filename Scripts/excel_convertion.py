@@ -1,53 +1,10 @@
-# import pandas as pd
-# import re
-#
-# def excel_utitlity(excel_file_path):
-#
-#     def find_test_id_column(df):
-#         for column in df.columns:
-#             if "test id" in column.lower() or "test case id" in column.lower() or "id" in column.lower():
-#                 return column
-#         return None
-#
-#     def find_steps_column(df):
-#         for column in df.columns:
-#             if "steps" in column.lower():
-#                 return column
-#         return None
-#
-#     # Replace 'your_file_path.xlsx' with the actual file path of your Excel sheet
-#     file_path = excel_file_path
-#
-#
-#     # Read the Excel files into DataFrames using openpyxl engine
-#     df = pd.read_excel(file_path, engine='openpyxl')
-#     credentials_df = pd.read_excel(file_path, engine='openpyxl')
-#
-#     # Find the columns with test IDs and steps
-#     test_id_column = find_test_id_column(df)
-#     steps_column = find_steps_column(df)
-#
-#     # Create a new DataFrame using the identified column names
-#     new_df = df[[test_id_column, steps_column]]
-#
-#     # Split the steps column into new rows
-#     new_df[steps_column] = new_df[steps_column].apply(lambda x: re.split(r'\d+\)|\d+\.', x))
-#
-#     # Explode the steps column to create new rows
-#     new_df = new_df.explode(steps_column)
-#
-#     # Forward-fill the test IDs for the new rows
-#     new_df[test_id_column] = new_df[test_id_column].ffill()
-#
-#     # Rename the columns to 'ID' and 'STEPS'
-#     new_df.rename(columns={test_id_column: 'Label'}, inplace=True)
-#
-#     return new_df
-
-
 
 import pandas as pd
 import re
+
+'''This code reads an Excel file containing test data, extracts test IDs and steps, and 
+identifies URLs within the Excel cells. It then restructures the data, splitting steps into 
+separate rows, and associates URLs with test IDs, finally saving the result in a new CSV file.'''
 
 def find_url(s):
     if not isinstance(s, (str, bytes)):
@@ -116,6 +73,3 @@ def excel_utitlity(excel_file_path):
     new_df.to_csv('new_df.csv',index=False)
     return new_df
 
-
-# test_case_path = r'C:\Users\abdul\PycharmProjects\Automation_Optimum\CredX _ TestCase _.xlsx'
-# print(excel_utitlity(test_case_path))

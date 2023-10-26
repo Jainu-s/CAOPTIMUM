@@ -86,6 +86,13 @@ import pandas as pd
 import re
 import joblib
 
+'''
+This code takes a DataFrame loaded from a CSV file, processes the text data in one of its columns,
+ and makes predictions on that text using a previously trained Naive Bayes classifier. It splits 
+ the text, cleans the URL, and assigns labels. The results are saved to a CSV file named
+  "predictions.csv," and the resulting DataFrame is returned
+'''
+
 def model_prediction(df):
     print(df.columns)
     # Find the column with "Steps" or "steps"
@@ -126,14 +133,6 @@ def model_prediction(df):
             # assign label
             label = row['Label']
 
-            # # Find the label in the row
-            # label = None
-            # if 'Test case / Scenario' in row.index:
-            #     label_text = row['Test case / Scenario']
-            #     label_match = re.search(r'(?:^|\D)(\d+|test case \d+)', label_text, flags=re.IGNORECASE)
-            #     if label_match:
-            #         label = label_match.group(1).strip()
-
             # Create a new row for each splitted text, URL, and label
             for step_text in steps:
                 new_row = {'Text': step_text, 'URL': url, 'Label': label}
@@ -145,8 +144,8 @@ def model_prediction(df):
 
 
     # Load the saved model and vectorizer
-    loaded_model = joblib.load(r'C:\Users\abdul\PycharmProjects\Automation_Optimum\Model\naive_bayes_model.joblib')
-    loaded_vectorizer = joblib.load(r'C:\Users\abdul\PycharmProjects\Automation_Optimum\Model\vectorizer.joblib')
+    loaded_model = joblib.load(r'C:\Users\Optimum.LAPTOP-SQLU1RCT\PycharmProjects\FAP\CAOPTIMUM\Model\naive_bayes_model.joblib')
+    loaded_vectorizer = joblib.load(r'C:\Users\Optimum.LAPTOP-SQLU1RCT\PycharmProjects\FAP\CAOPTIMUM\Model\vectorizer.joblib')
 
     # Transform the new data using the loaded vectorizer
     new_data = new_df['Text']

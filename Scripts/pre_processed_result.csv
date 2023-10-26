@@ -20,7 +20,7 @@ given item,13,VCS03,,click,Medium Crossbody Bag
 firstname,19,VCS04,,insert,Jainmiah
 lastname,20,VCS04,,insert,shaik
 Address line1,21,VCS04,,insert,587/41 BTM Layout 2
-postal code,22,VCS04,,insert,560076
+postalCode,22,VCS04,,insert,560076
 city locality,23,VCS04,,insert,Bangaluru
 Province,24,VCS04,,click,Karnataka
 """KARNATAKA""",25,VCS04,,click,

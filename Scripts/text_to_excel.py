@@ -232,7 +232,7 @@ def save_to_excel(df, file_name):
         df.to_excel(writer, index=False)
 
 def text_to_excel_main(file_path=None):
-    file_path = r"C:\Users\abdul\PycharmProjects\Automation_Optimum\Testcases\swiggy.docx"
+    file_path = r"C:\Users\Optimum.LAPTOP-SQLU1RCT\PycharmProjects\FAP\CAOPTIMUM\Testcases\swiggy.docx"
     if file_path.endswith('.docx'):
         columns, original_columns, all_rows = extract_data_from_word(file_path)
     else:

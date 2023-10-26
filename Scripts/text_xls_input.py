@@ -1,6 +1,9 @@
 import pandas as pd
 import re
 
+'''This code takes text and credentials from an Excel file. It breaks down the text into steps, 
+matches those steps with associated credentials, and creates a new CSV file with organized data.'''
+
 def split_steps_description(data):
     # Find the index of the "Steps Description" heading
     steps_index = data.index("Steps Description:") + 1

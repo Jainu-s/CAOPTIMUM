@@ -2,7 +2,12 @@ import spacy
 from PIL import Image
 import pytesseract
 
-
+'''
+This code defines functions for natural language processing (NLP) using the spaCy library and
+for extracting text from an image using the Tesseract OCR (Optical Character Recognition) engine. 
+The load_model function initializes an NLP model, and the extract_text_from_image function extracts
+text from an image file. The code also configures Tesseract for image text extraction.
+'''
 # NLP Code
 nlp = None
 
@@ -42,8 +47,3 @@ def extract_text_from_image(image_path):
 
     return text
 
-
-# # Example usage:
-# image_path = r'C:\Users\abdul\PycharmProjects\Automation_Optimum\Scripts\Screenshot\SW101\9SW101click.png'  # Replace with your image path
-# extracted_text = extract_text_from_image(image_path)
-# print(extracted_text)

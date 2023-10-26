@@ -3,6 +3,12 @@ import re
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
+'''
+This code refines text data in a DataFrame by removing unnecessary elements like numbers, URLs, 
+and specific keywords, and it tokenizes the text into words while preserving relevant content. 
+It stores the processed text along with other columns in a new DataFrame and saves it as 
+"Preprocessed.csv."
+'''
 def keyword_processing(df):
 
     # Define the stop words to be removed
@@ -103,20 +109,3 @@ def keyword_processing(df):
     return new_df
 
 
-# result_df = keyword_processing('predictions.csv')
-# print(result_df)
-
-
-
-# test_cases_list = keyword_processing(r'C:\Users\abdul\PycharmProjects\Automation_Optimum\demo_samples.xlsx')
-#
-# print('test case list:', test_cases_list)
-# for sublist in test_cases_list:
-#     print("Started New Test Case: -------------------------------------------------------")
-#     url = sublist[0][0]
-#     instructions_list = sublist[1]
-#
-#     # Use the URL and instructions_list variables as needed
-#     print("URL:", url)
-#     print("Instructions List:", instructions_list)
-#     print()

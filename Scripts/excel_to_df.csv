@@ -24,7 +24,7 @@
 3,VCS04, Enter firstname ,
 3,VCS04, Enter lastname ,
 3,VCS04, Enter Address line1 ,
-3,VCS04, Enter postal code ,
+3,VCS04, Enter postalCode ,
 3,VCS04, Enter city locality ,
 3,VCS04, click Province ,
 3,VCS04," click on ""KARNATAKA"" ",

@@ -20,7 +20,7 @@ given item,13,VCS03,,click
 firstname,19,VCS04,,insert
 lastname,20,VCS04,,insert
 Address line1,21,VCS04,,insert
-postal code,22,VCS04,,insert
+postalCode,22,VCS04,,insert
 city locality,23,VCS04,,insert
 Province,24,VCS04,,click
 """KARNATAKA""",25,VCS04,,click

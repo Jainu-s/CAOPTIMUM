@@ -1,26 +1,23 @@
-from backup_functionalities1 import *
-from Model.Model_Prediction import *
+from main_functionalities import *
+from CAOPTIMUM.Model.Model_Prediction import *
 from data_preprocessing import *
-from text_file_input import *
 from text_file_input import *
 from text_to_excel import text_to_excel_main
 import pandas as pd
-from Validation.validation import test_case_validation
+from CAOPTIMUM.Validation.validation import test_case_validation
 from visualization import visualization
 from excel_convertion import excel_utitlity
-
-# from visualization import visualization
-import csv
 import os
-import pyautogui
-import logging
 
-import os
+'''This code defines a function that processes test cases from various file formats 
+(CSV, DOC, TXT, or XLSX), extracts relevant data, performs predictions using a machine learning 
+model, pre-processes the results, associates credentials, and automates browser interactions 
+based on predictions, while logging the process and validating test cases.'''
 
 num_cores = os.cpu_count()
 print(f"Number of CPU cores: {num_cores}")
 import logging
-from Logs.logger_config import setup_logging
+from CAOPTIMUM.Logs.logger_config import setup_logging
 
 
 setup_logging("module1_test_case")
@@ -37,10 +34,9 @@ remove_words = ['option', 'menu', 'Button', 'button']
 browser_list = ['google browser', 'firefox browser', 'chrome browser', 'browser', 'Google Browser', 'Chrome Browser',
                 'Browser']
 
-
+""" This block is for test_case_path functionality"""
 def process_testcase_with_credentials(test_case_path, credentials_path):
     print('started....')
-    """ This block is for test_case_path functionality"""
     # Check file extension
     file_extension = os.path.splitext(test_case_path)[1].lower()
     print('file extension:', file_extension)
@@ -248,10 +244,6 @@ def process_testcase_with_credentials(test_case_path, credentials_path):
             previous_function(driver, url, text,id,each_step_no,prediction)
             # save_cookies(driver, 'cookies.pkl')
 
-
-    # generate visualization
-    #print(visualization())
-
     test_case_validation()
     visualization()
 
@@ -259,8 +251,8 @@ def process_testcase_with_credentials(test_case_path, credentials_path):
 
 if __name__ == '__main__':
 
-    test_case_path = r'C:\Users\abdul\PycharmProjects\Automation_Optimum\Testcases\NewVS.xlsx'
-    credentials_path = r'C:\Users\abdul\PycharmProjects\Automation_Optimum\Credentials\Credentials.xlsx'
+    test_case_path = r'C:\Users\Optimum.LAPTOP-SQLU1RCT\PycharmProjects\FAP\CAOPTIMUM\Testcases\NewVS.xlsx'
+    credentials_path = r'C:\Users\Optimum.LAPTOP-SQLU1RCT\PycharmProjects\FAP\CAOPTIMUM\Credentials\Credentials.xlsx'
     process_testcase_with_credentials(test_case_path, credentials_path)
     logging.info("Execution started:")
 

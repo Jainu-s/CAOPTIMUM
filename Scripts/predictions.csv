@@ -20,7 +20,7 @@ Document,URL,Text,Label,Prediction
 19,,Enter firstname,VCS04,insert
 20,,Enter lastname,VCS04,insert
 21,,Enter Address line1,VCS04,insert
-22,,Enter postal code,VCS04,insert
+22,,Enter postalCode,VCS04,insert
 23,,Enter city locality,VCS04,insert
 24,,click Province,VCS04,click
 25,,"click on ""KARNATAKA""",VCS04,click
